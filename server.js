@@ -15,7 +15,7 @@ const rollbar = new Rollbar({
 
 app.use(express.json())
 
-const students = ['Jimmy', 'Timothy', 'Jimothy']
+const students = ['Luffy', 'Zoro', 'Chopper']
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '/index.html'))
